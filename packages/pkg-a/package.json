@@ -1,0 +1,15 @@
+{
+  "name": "pkg-a",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "echo": "echo pkg-a"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
